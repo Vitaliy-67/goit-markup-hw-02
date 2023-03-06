@@ -160,7 +160,8 @@ color:#FFFFFF;
     line-height: 1.11em;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize;    
+    text-transform: capitalize;
+    color:var(--subtitle-color);    
 }
 /*----------Our Team----------*/
 .team {
@@ -173,6 +174,7 @@ line-height: 1.11em;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color:var(--subtitle-color);
 }
 
 .team-card {
@@ -194,6 +196,7 @@ letter-spacing: 0.02em;
 /*----------filters----------*/
 .filter-btn {
 cursor: pointer;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.50em;
