@@ -2,7 +2,6 @@
 :root {
 --main-title-color:#FFFFFF;
 --subtitle-color:#2E2F42;
---main-text-color: #434455;
 --header-hero-color:#FFFFFF;
 --button-hero-color:#4D5AE5;
 --button-hero-hover-color: #404BBF;
@@ -11,9 +10,9 @@
 }
 
 body {
-font-family: 'roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
-color:#2E2F42;
+color:#434455;
 }
 /*----------header----------*/
 
@@ -26,11 +25,11 @@ color:#2E2F42;
 }
 
 .header-logo {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33em;
+line-height: 1.17;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -58,6 +57,9 @@ color:#2E2F42;
     color:#404BBF;
 }
 
+.header-address {
+font-style: normal;
+}
 .contacts {
 font-family: 'Roboto';
 font-style: normal;
@@ -77,11 +79,11 @@ color:var(--main-text-color)
     background-color:#2E2F42;
 }
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33em;
+    line-height: 1.17em;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -124,6 +126,7 @@ background-color:#404BBF;
 .hero-button {
 cursor: pointer;
 background-color:#4D5AE5;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.50em;
@@ -134,6 +137,7 @@ color:#FFFFFF;
 }
 
 /*----------feature----------*/
+
 .feature-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -146,7 +150,6 @@ color:#FFFFFF;
     font-size: 16px;
     line-height: 1.50em;
     letter-spacing: 0.02em;
-    color:var(--main-text-color)
 }
 
 
@@ -186,7 +189,6 @@ color:var(--subtitle-color)
 font-size: 16px;
 line-height: 1.50em;
 letter-spacing: 0.02em;
-color:var(--main-text-color)
 }
 /*----------portfolio----------*/
 
@@ -221,7 +223,6 @@ color:var(--button-filters-hover-color)
     font-size: 16px;
     line-height: 1.50em;
     letter-spacing: 0.02em;
-    color:var(--main-text-color)
 }
 /*----------portfolio----------*/
 /*----------portfolio----------*/
