@@ -226,6 +226,10 @@ color:var(--button-filters-hover-color)
     line-height: 1.50em;
     letter-spacing: 0.02em;
 }
+
+.project-link:link {
+    text-decoration: none;
+}
 /*----------portfolio----------*/
 /*----------portfolio----------*/
 /*----------portfolio----------*/
