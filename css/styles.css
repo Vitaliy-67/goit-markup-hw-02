@@ -4,7 +4,7 @@
 /*----------header----------*/
 --logo-web-color:#4D5AE5;
 --logo-studio-color:#2E2F42;
---header-item-color:#434455;
+--header-item-color:#2E2F42;
 --header-item-hover-color:#404BBF;
 --contacs-color:#434455;
 --contacs-hover-color:#404BBF;
@@ -128,6 +128,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07em;
+    text-align: center;
     letter-spacing: 0.02em;
     color:var(--header-hero-color);
 }
@@ -171,6 +172,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11em;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--main-subtitle-color);    
@@ -183,6 +185,7 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11em;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--main-subtitle-color);
